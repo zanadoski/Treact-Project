@@ -37,3 +37,64 @@ a {
     display: inline;
     text-decoration: none;
 }
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    color: #1a202c;
+    line-height: 1.25;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+/* 
+
+NAVIGATION
+
+*/
+
+nav {
+    padding-top: 32px;
+    display: flex;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
+}
+
+.nav__logo--title {
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
+}
+
+.nav__logo--img {
+    height: 40px;
+    width: 40px;
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
