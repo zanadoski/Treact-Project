@@ -412,3 +412,9 @@ FEATURES
     line-height: 2;
     font-weight: 500;
 }
+
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
